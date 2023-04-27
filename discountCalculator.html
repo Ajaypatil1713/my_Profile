@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Discount Calculator </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+        <style>
+            *{
+                font-family: 'Itim', cursive;
+                
+            }
+            body{
+                background-color: #f2f2f2;    
+            }
+            input{
+                border-radius: 50px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                width: 250px;
+                font-size: large;
+                text-align: center;
+                color:cadetblue ;
+                border-color: #dd2d00;
+                font-weight: bold;
+                box-shadow: 6px 6px 6px #888888;
+            }
+            h3,label,strong{
+                font-size: x-large;
+                color: cadetblue;
+            }
+            #calculate:hover{
+                background: #49a109;
+            }
+            #calculate:hover{
+               
+                color: white;
+            }
+            #bill_amount{
+                padding-right:150px;
+                padding-top: 0px;
+            }
+            #discount_percentage{
+                padding-right: 65px;
+            }
+            h2{
+                color: cadetblue;
+                font-size: xx-large;
+            }
+            #calculate{
+                color: black;
+                padding: 5px 10px;
+                border-radius: 20px;
+                box-shadow: 6px 6px 6px #888888;
+                font-size: large;  
+                border-color: #dd2d00;
+                width: 130px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2> DISCOUNT CALCULATOR  </h2>
+        <h3> Enter the Bill amount and discount in percentage </h3>
+
+        <form>
+            <label name="bill_amount" id="bill_amount" ><b>Bill Amount </b></label>
+            <input type="number" id="box1"><br><br>
+
+            <label for="discount_percentage" id="discount_percentage"><b>Discount Percentage</b></label>
+            <input type="number" id="box2"><br><br>
+
+            <button type="submit" id="calculate"> <b>Calculate</b> </button>
+        </form>
+        <br>
+        <strong>Total Discount Ammount == </strong>
+        <br> <br>
+        <p> Name : Ajay Patil </p>
+        <p> Date : 26-04-2023 </p>
+    </body>
+</html>
